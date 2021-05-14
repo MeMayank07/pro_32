@@ -75,7 +75,7 @@ function setup() {
 
 function draw() {
  // background(backgroundImg);  
- background("white")
+ background("black")
   Engine.update(engine);
   strokeWeight(2);
   stroke("white");
@@ -92,7 +92,7 @@ function draw() {
   stand2.display();
   
   stroke(15);
-  fill("black")
+  fill("cyan")
   block1.display();
   block1.score();
   block2.display();
